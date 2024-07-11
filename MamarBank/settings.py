@@ -31,6 +31,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["https://mamar-bank-project-c4w4.onrender.com","https://*.127.0.0.1"] # new
+
 # ALLOWED_HOSTS = []
 
 
